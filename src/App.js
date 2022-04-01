@@ -5,7 +5,6 @@ import SmallBig from './features/SmallBig';
 
 function App()
 {
-
   return (
     <div className="App">
       <Counter />

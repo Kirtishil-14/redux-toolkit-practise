@@ -8,5 +8,6 @@ export const store = configureStore({
     counter: counterReducer,
     darkLight: darkLightReducer,
     smallBig: smallBigReducer,
+    users: usersReducer,
   },
 });
