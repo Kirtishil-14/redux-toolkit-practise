@@ -3,8 +3,7 @@ import Counter from './features/Counter';
 import DarkLight from './features/DarkLight';
 import SmallBig from './features/SmallBig';
 
-function App()
-{
+function App() {
   return (
     <div className="App">
       <Counter />
