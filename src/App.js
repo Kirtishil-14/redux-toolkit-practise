@@ -1,8 +1,8 @@
 import './App.css';
-import Counter from './features/Counter';
-import DarkLight from './features/DarkLight';
-import SmallBig from './features/SmallBig';
-import User from './features/User';
+import Counter from './components/Counter';
+import DarkLight from './components/DarkLight';
+import SmallBig from './components/SmallBig';
+import User from './components/User';
 
 function App() {
   return (
