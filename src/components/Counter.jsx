@@ -1,6 +1,10 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment, incrementByAmount } from "./counterSlice";
+import {
+  decrement,
+  increment,
+  incrementByAmount,
+} from "../features/counterSlice";
 
 export default function Counter() {
   // @ts-ignore

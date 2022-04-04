@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { small, big } from "./smallBigSlice";
+import { small, big } from "../features/smallBigSlice";
 
 export default function SmallBig() {
   // @ts-ignore

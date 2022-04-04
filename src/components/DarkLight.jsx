@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { dark, light } from "./darkLightSlice";
+import { dark, light } from "../features/darkLightSlice";
 
 export default function DarkLight() {
   // @ts-ignore

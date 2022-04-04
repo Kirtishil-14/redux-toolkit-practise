@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addUser, deleteUser, updateUserName } from "./userSlice";
+import { addUser, deleteUser, updateUserName } from "../features/userSlice";
 
 const User = () => {
   const [name, setName] = useState("");
