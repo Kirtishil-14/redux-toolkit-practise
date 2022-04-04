@@ -6,6 +6,7 @@ const User = () => {
   const [name, setName] = useState("");
   const [username, setUserName] = useState("");
   const [newusername, setNewUserName] = useState("");
+  // @ts-ignore
   const userList = useSelector((state) => state.users.value);
   const dispatch = useDispatch();
 
